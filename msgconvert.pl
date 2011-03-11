@@ -31,8 +31,8 @@ foreach my $file (@ARGV) {
   if ($mboxfile ne '') {
     Email::LocalDelivery->deliver($mail, $mboxfile);
   } else {
-    my $basename = basename($file, qr/\.msg/i);
-    my $outfile = "$basename.eml";
+    my ($name, $path, $suffix) = fileparse($file, qr/\.msg/i);
+    my $outfile = "$path/$name.eml";
     open OUT, ">:utf8", $outfile
       or die "Can't open $outfile for writing: $!";
     print OUT $mail;
