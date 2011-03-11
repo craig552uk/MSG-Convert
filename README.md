@@ -34,3 +34,9 @@ You can configure Nautilus to open `.msg` files when you double-click them
 4. Click the *Browse* button and choose the `msgconvert.pl` file
 
 Now when you double click a `.msg` file, it will be automatically converted to a `.eml` file and opened in Thunderbird.
+
+## Note
+
+By default the script will open the converted files with thunderbird, you can over ride this with the `--exec` option.
+Preferably the script would by default use no application, but Nautilus doesn't allow you to specify options for 'open with' scripts.
+If you'd rather have no default application, simply change the parameter on line 19 from `my $execute = 'thunderbird';` to `my $execute = '';`
