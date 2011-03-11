@@ -1,11 +1,11 @@
-==MSG Convert
+# MSG Convert
 
 A perl script to convert Outlook .msg files in to .eml files to read on Ubuntu Linux using Thunderbird.
 
-Originally by Matijs van Zuijlen (matijs@matijs.net)
-Later edits by Craig Russell (craig@craig-russell.co.uk)
+Originally by Matijs van Zuijlen [matijs@matijs.net](matijs@matijs.net)
+Later edits by Craig Russell [craig@craig-russell.co.uk](craig@craig-russell.co.uk)
 
-==Usage Instructions
+## Usage Instructions
 
 1. Install the required perl packages with the following commands    
 
