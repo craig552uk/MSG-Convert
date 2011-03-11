@@ -38,11 +38,11 @@ Now when you double click a `.msg` file, it will be automatically converted to a
 ## Options
 `msgconvert.pl [options] <file.msg>...`
 
-Options:
-`--mbox <file>`     deliver messages to mbox file `<file>`
-`--exec <command>`  run `<command>` with output file as parameter
-`--verbose`         be verbose
-`--help`            help message
+Options:        
+`--mbox <file>`     deliver messages to mbox file `<file>`      
+`--exec <command>`  run `<command>` with output file as parameter       
+`--verbose`         be verbose      
+`--help`            help message        
 
 ###--mbox
 Deliver to the given mbox file instead of creating individual `.eml` files.
