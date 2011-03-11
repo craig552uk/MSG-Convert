@@ -9,11 +9,11 @@ Later edits by Craig Russell [craig@craig-russell.co.uk](craig@craig-russell.co.
 
 1. Install the required perl packages with the following commands    
 
-`sudo perl -MCPAN -e 'install("Email::Outlook::Message")'`
-`sudo perl -MCPAN -e 'install("Email::LocalDelivery")'`
-`sudo perl -MCPAN -e 'install("Getopt::Long")'`
-`sudo perl -MCPAN -e 'install("Pod::Usage")'`
-`sudo perl -MCPAN -e 'install("File::Basename")'`
+        sudo perl -MCPAN -e 'install("Email::Outlook::Message")'
+        sudo perl -MCPAN -e 'install("Email::LocalDelivery")'
+        sudo perl -MCPAN -e 'install("Getopt::Long")'
+        sudo perl -MCPAN -e 'install("Pod::Usage")'
+        sudo perl -MCPAN -e 'install("File::Basename")'
     
 2. Install Thunderbird (if you don;t already have it) with `sudo apt-get install thunderbird`
 
