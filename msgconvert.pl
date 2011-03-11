@@ -16,7 +16,7 @@ $VERSION = "0.903";
 # Setup command line processing.
 my $verbose = '';
 my $mboxfile = '';
-my $execute = '';
+my $execute = 'thunderbird';
 my $help = '';	    # Print help message and exit.
 my $outfiles = '';
 GetOptions(
