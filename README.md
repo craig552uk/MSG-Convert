@@ -38,24 +38,22 @@ Now when you double click a `.msg` file, it will be automatically converted to a
 ## Options
 `msgconvert.pl [options] <file.msg>...`
 
-Options:        
-`--mbox <file>`     deliver messages to mbox file `<file>`      
-`--exec <command>`  run `<command>` with output file as parameter       
-`--verbose`         be verbose      
-`--help`            help message        
-
 ###--mbox
+`--mbox <file>`     
 Deliver to the given mbox file instead of creating individual `.eml` files.
 
 ###--exec
+`--exec <command>`      
 After creating output files, run the specified command with each
 output file as a parameter
 e.g. `msgconvert.pl --exec thunderbird input.msg`
 
 ###--verbose
+`--verbose`     
 Print information about skipped parts of the .msg file.
 
 ###--help
+`--help`        
 Print a brief help message.
 
 ## Note
